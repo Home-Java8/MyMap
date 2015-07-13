@@ -1,0 +1,26 @@
+(Задания) http://math.sgu.ru/sites/chairs/prinf/materials/java/maintask.htm
+(Задача об упругом столкновении шаров) http://bestpupils.ru/stati/150-zadacha-ob-uprugom-stolknovenii-sharov
+
+
+
+(jdbc) http://www.java-samples.com/showtutorial.php?tutorialid=369
+step1:load driver
+ step2:create connection
+ step3:create statement
+ step3:execute quire and store the result in ResultSet
+
+Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+ Connection con= DriverManager.getConnection("jdbc:odbc:FTW", "ur_name", "ur_lover_name");
+ //generally usernames are their names and passwords are their lover names//Step1
+ String st1="select uname, pass from Emp";
+ Statement st = con.createStatement();
+ ResultSet rs=st.executeQuery(st1);
+ Map m1 = new HashMap();
+ String my_name,my_lover_name;
+ while(rs.next())
+ {
+ my_name = rs.getString(1);//i.e user name
+ my_lover_name = rs.getString(2);//i.e passward
+ m1.put(my_name , my_lover_name); //here we add to our map
+
+ }

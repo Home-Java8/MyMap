@@ -1,0 +1,3 @@
+  (Справочник по Java Collections Framework) http://habrahabr.ru/post/237043/
+* (Алгоритмы и структуры данных поиска. Лекции и курсы от Яндекса) http://habrahabr.ru/company/yandex/blog/208716/
+* (ЗлостныйКодер * Программирование, Алгоритмы) http://evilcoderr.blogspot.com/search/label/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B
