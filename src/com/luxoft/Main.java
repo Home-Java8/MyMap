@@ -85,7 +85,7 @@ public class Main {
         hashmap.put("3", "c");
 
         // 1.
-        for (Map.Entry<String, String> entry: hashmap.entrySet())
+        for (Entry<String, String> entry: hashmap.entrySet())
             System.out.println(entry.getKey() + " = " + entry.getValue());
         // 2.
         for (String key: hashmap.keySet())
