@@ -1,4 +1,4 @@
-package com.example.put;
+package com._example.put;
 
 /**
  * Created by alexandr on 13.07.15.

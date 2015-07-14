@@ -1,8 +1,7 @@
-package com.example.a;
+package com._example.a;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashSet;
 
 /**
  * @author Lazarchuk Aleksandr
