@@ -48,3 +48,21 @@ HashMap
 * `Структуры данных в картинках. HashMap`: [Структуры данных в картинках. HashMap](http://habrahabr.ru/post/128017/)
 * `Лекция 6.5: Коллекции / HashMap/HashSet, hashCode()`: [Лекция 6.5: Коллекции / HashMap/HashSet, hashCode()](http://www.golovachcourses.com/collections-hash/)
 * `Плохая Java или как не надо делать`: [Плохая Java или как не надо делать]()
+
+
+* `Параллельные потоки`: [Параллельные потоки](http://devcolibri.com/4274)
+* `Bean Predicate with Equal`: [Bean Predicate with Equal](http://www.java2s.com/Code/Java/Apache-Common/BeanPredicatewithEqualPredicate.htm), [Predicate<T> method equals()](http://stackoverflow.com/questions/6029755/predicatet-method-equals), [predicatedCollection](https://commons.apache.org/proper/commons-collections/apidocs/org/apache/commons/collections4/CollectionUtils.html)
+
+Object
+======
+* `getClass()`:
+* `hashCode()`:
+* `equlas()`:
+* `wait()`:
+* `notify()`:
+* `toString()`:
+* `clone()`:
+
+
+* `finalize()`:
+* `registerNatives()`:
