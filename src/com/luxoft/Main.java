@@ -1,8 +1,6 @@
 package com.luxoft;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;
 
 /**
@@ -94,6 +92,20 @@ public class Main {
         Iterator<Entry<String,String>> itr = hashmap.entrySet().iterator();
         while (itr.hasNext())
             System.out.println(itr.next());
+
+        System.out.println("---------------------------------");
+
+        String db[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+        String xml[] = { "2", "3", "6" };
+        Map<String, List> mapAll = new HashMap<>();
+        mapAll.put("db", new ArrayList(Arrays.asList(db)));
+        mapAll.put("xml", new ArrayList(Arrays.asList(xml)));
+
+        System.out.println(mapAll);
+//        mapAll.get("db").retainAll(mapAll.get("xml"));
+        mapAll.get("db").removeAll(mapAll.get("xml"));
+        System.out.println(mapAll);
+
     }
 
 }
